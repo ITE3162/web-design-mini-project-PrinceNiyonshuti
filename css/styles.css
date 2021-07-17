@@ -7,7 +7,7 @@
 
 	/*========== Colors ==========*/
 	/* Change favorite color */
-	--hue-color: 10; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
+	--hue-color: 170; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
 
 	/* HSL color mode */
 	--first-color: hsl(var(--hue-color), 69%, 61%);
@@ -704,6 +704,7 @@ textarea {
 .footer_social,
 .footer_copy {
 	color: #fff;
+	padding-left: 19px;
 }
 
 /*========== SCROLL UP ==========*/
@@ -879,6 +880,9 @@ textarea {
 	}
 	.footer_socials {
 		justify-content: flex-end;
+	}
+	.foote_link {
+		padding-left: 19px;
 	}
 }
 
